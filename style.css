@@ -1,0 +1,58 @@
+
+
+h1 { font-style:italic ; font-size: 75px;}
+
+h2 { font-size: 40px; font-style: oblique;}
+
+ul { font-size: 23px; }
+
+ol { font-size: 23px;}
+
+body {background-color: #606c38;}
+
+.smaller-image{
+   width: 675px;
+}
+.smaller-image2{
+   max-height: 300px;
+ }
+.thick-black-border2{ 
+    border-color: black;
+    border-width: 100px;
+    border-style: solid;
+}
+
+.thick-black-border{ 
+    border-end-end-radius: 100000px;
+   border-top-left-radius: 10000px;
+   border-bottom-left-radius: 10000px;
+   border-top-right-radius: 10000px;
+    border-color: black;
+    border-width: 30px;
+    border-style: solid;
+}
+
+
+
+.thick-black-border3{ 
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.thick-black-border4{ 
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+
+}.thick-black-border5{ 
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+
+}
+.thick-black-border6{ 
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+}
