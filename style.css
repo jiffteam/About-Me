@@ -1,6 +1,11 @@
 
 
-h1 { font-style:italic ; font-size: 75px;}
+
+h1 { font-style:italic ;}
+h1{
+    text-align: center;
+    font-size: 60px;
+}
 
 h2 { font-size: 40px; font-style: oblique;}
 
@@ -8,13 +13,17 @@ ul { font-size: 23px; }
 
 ol { font-size: 23px;}
 
-body {background-color: #606c38;}
+body {background-color: #606c38;
+  font-size: 30px;
+}
 
 .smaller-image{
-   width: 675px;
+   max-width: 100%;
+   height: auto;
 }
 .smaller-image2{
-   max-height: 300px;
+   max-height: 400px;
+   align-self: center;
  }
 .thick-black-border2{ 
     border-color: black;
@@ -23,16 +32,19 @@ body {background-color: #606c38;}
 }
 
 .thick-black-border{ 
-    border-end-end-radius: 100000px;
-   border-top-left-radius: 10000px;
-   border-bottom-left-radius: 10000px;
-   border-top-right-radius: 10000px;
+    border-end-end-radius: 1000px;
+   border-top-left-radius: 100px;
+   border-bottom-left-radius: 100px;
+   border-top-right-radius: 100px;
     border-color: black;
     border-width: 30px;
     border-style: solid;
+    align-items: center;
 }
 
-
+.smaller-image2{
+    size-adjust: 100px;
+}
 
 .thick-black-border3{ 
     border-color: black;
@@ -55,4 +67,10 @@ body {background-color: #606c38;}
     border-color: black;
     border-width: 10px;
     border-style: solid;
+}
+
+@media (max-width:400px) {
+    body{
+
+    }
 }
